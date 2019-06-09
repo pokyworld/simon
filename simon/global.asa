@@ -1,0 +1,24 @@
+﻿<script language="VBSCRIPT" runat="server">
+
+Sub Application_OnStart
+    Application("http_root") = "http://lenovo.local"
+    Application("https_root") = "https://lenovo.local"
+
+End Sub
+
+Sub Application_OnEnd
+
+
+End Sub
+
+Sub Session_OnStart
+
+
+End Sub
+
+Sub Session_OnEnd
+
+
+End Sub
+
+</script>
